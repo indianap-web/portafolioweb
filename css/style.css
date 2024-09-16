@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+	--color-rojo:#FF3333;
+	--color-negro:#1E1E1E;
+	--color-gris:#9B9B9B;
+	--color-contenido:#0A0A0A;
+	--fondo-grisclaro: #BEBFC0;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	color: var(--color-contenido);
+	font-weight: 300;
+}
+.section {
+	padding: 80px 0px;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header img{
+	width: 60px;
+}
+header{
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	
+}
+header #navbar{
+	margin-bottom: -15px;
+}
+header .container-fluid{
+  length: 100%;
+  margin: 0 auto;
+  padding: 15px; 
+  box-sizing: border-box; 
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# Hero section
+--------------------------------------------------------------*/
+#hero {
+	padding-top: 120px;
+	padding-bottom: 10px;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: -10px;
+}
+#hero h1 {
+font-size: 70px;
+font-weight:600;
+}
+#hero p{
+	padding-top: 15px;
+}
+#hero img{
+	width: 500px;
+	margin-top: -40px;
+	margin-left: 40px;
+}
+#hero hr{
+	border-width: 4px;
+	border-color: var(--color-rojo);
+	opacity: 1;
+	width: 370px;
+	margin-top: -5px;
+}
+#hero .btn{
+	border: 2px solid var(--color-rojo);
+	border-radius: 70px;
+	color: var(--color-rojo);
+	font-weight: 500;
+	padding: 10px 50px;
+	margin-top: 30px;
+}
+#hero .btn:hover{
+	border-color: #fff;
+	color: #fff;
+	background-color: var(--color-rojo);
+}
+/*--------------------------------------------------------------
+# Hero section
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# About-me
+--------------------------------------------------------------*/
+#about-me {
+background-color: var(--fondo-grisclaro);
+}
+#about-me h2{
+	font-size: 40px;
+	font-weight: 500;
+	padding-bottom: 40px;
+}
+#about-me h3{
+	font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 10px;
+	color: #fff;
+}
+#about-me img{
+	width: 500px;
+}
+#about-me .info-me{
+	font-weight: 500px;
+}
+#about-me b{
+	font-weight: 600;
+}
+/*--------------------------------------------------------------
+# About-me
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services h2{
+	margin-top: -30px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+}
+#services p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+#services .tarjeta{
+	background-color: var(--color-rojo);
+	padding: 30px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: #fff;
+}
+#services .tarjeta h4{
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+#services .tarjeta p{
+	font-size: 16px;
+	font-weight: 400;
+}
+#services .tarjeta i{
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.line{
+	border-width: 3px;
+	border-color: var(--color-azul);
+	opacity: 1;
+	width: 25px;
+}
+#services .line{
+	margin: auto;
+	margin-bottom: 20px;
+}
+#services .tarjeta:hover{
+	background-color: var(--color-negro);
+	color: #fff;
+}
+#services .tarjeta:hover h4, 
+#services .tarjeta:hover p, 
+#services .tarjeta:hover i{
+	color: #fff;
+}
+#services .tarjeta:hover hr{
+	border-color:  #fff;
+}
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# carrousel
+--------------------------------------------------------------*/
+#hero-slides h1{
+	font-size: 60px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+#hero-slides p{
+	font-size: 20px;
+	font-weight: 600;
+}
+#hero-slides button.circle{
+	border-radius: 100%;
+	padding: 4px;
+	width: 3px;
+}
+/*--------------------------------------------------------------
+# carrousel
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Expertise section
+--------------------------------------------------------------*/
+#expertise .barra-titulo{
+	height: 80px;
+	width: 4px;
+	background-color: var(--color-rojo);
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: -80px;
+}
+#expertise h2{
+	font-size: 40px;
+	font-weight:600;
+	text-align: center;
+}
+#expertise h3{
+	border: 2px solid var(--color-rojo);
+	border-color: #fff;
+	color: #fff;
+	background-color: var(--color-rojo);
+	padding: 15px 15px;
+	border-radius: 70px;
+	width: 65px
+}
+#expertise h3:hover{
+	border-color: var(--color-rojo);
+	color: var(--color-rojo);
+	background-color: #fff;
+	border: 2px solid var(--color-rojo);
+}
+#expertise h5{
+	font-size: 20px;
+}
+#expertise p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+/*--------------------------------------------------------------
+# Expertise section
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+#projects .barra-titulo{
+	height: 80px;
+	width: 4px;
+	background-color: var(--color-rojo);
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: -80px;
+}
+#projects h2{
+	font-size: 40px;
+	font-weight:600;
+	text-align: center;
+}
+#projects h3{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.gallery video {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# info-contact
+--------------------------------------------------------------*/
+#info-contact{
+	background-color: var(--color-rojo);
+	color: #fff;
+}
+#info-contact i{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+#info-contact h2{
+	color: #fff;
+	font-weight: 700;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+#info-contact p{
+	color: var(--color-morado);
+	font-size: 15px;
+}
+#info-contact a{
+	font-weight: 500;
+	text-decoration: none;
+}
+/*--------------------------------------------------------------
+# info-contact
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# form-contact
+--------------------------------------------------------------*/
+#form-contact h2{
+	font-size: 40px;
+	font-weight: 600;
+	text-align: left;
+	padding-bottom: 20px;
+}
+#form-contact h4{
+	font-size: 25px;
+	text-align: left;
+	padding-bottom: 40px;
+}
+#form-contact .btn{
+	border: 3px solid var(--color-rojo);
+	border-color: #fff;
+	color: #fff;
+	background-color: var(--color-rojo);
+	border-radius: 70px;
+	font-weight: 500;
+	padding: 10px 50px;
+	margin-top: 30px;
+}
+#form-contact .btn:hover{
+	background-color: #fff;
+	border: 3px solid var(--color-rojo);
+	color: var(--color-rojo);
+	border-radius: 70px;
+	font-weight: 500;
+}
+#form-contact .fa-envelope{
+	font-size: 50px;
+	color: var(--color-rojo);
+	padding-bottom: 20px;
+}
+#form-contact iframe {
+	padding-left: 30px;
+}
+/*--------------------------------------------------------------
+# form-contact
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer{
+	background-color: var(--color-negro);
+	color: #fff;
+	padding: 20px 0;
+}
+footer img{
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer h4{
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+footer p{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
+footer b{
+	color: var(--color-rojo);
+	font-weight:600;
+	font-size: 13px;
+	margin: 5px 5px;
+}
+footer .social-links a{
+	font-size: 20px;
+	color: #fff;
+	background-color: var(--color-rojo);
+	padding: 10px 12px;
+	border-radius: 70px;
+	margin: 0px 10px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
