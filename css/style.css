@@ -52,7 +52,7 @@ header .container-fluid{
 # Hero section
 --------------------------------------------------------------*/
 #hero {
-	padding-top: 120px;
+	padding-top: 80px;
 	padding-bottom: 10px;
 }
 h2 {
@@ -68,8 +68,8 @@ font-weight:600;
 	padding-top: 15px;
 }
 #hero img{
-	width: 500px;
-	margin-top: -40px;
+	width: 650px;
+	margin-top: -90px;
 	margin-left: 40px;
 }
 #hero hr{
